@@ -1,0 +1,21 @@
+extern bool LOW;
+extern bool HIGH;
+
+extern uint8 OUTPUT;
+extern uint8 INPUT;
+extern uint8 INPUT_PULLUP;
+
+extern void pinMode(pin, uint8);
+
+extern bool digitalRead(pin);
+extern void digitalWrite(pin, bool);
+
+extern uint16 analogRead(pin);
+extern void   analogWrite(pin, uint16);
+
+extern uint32 micros();
+extern uint32 millis();
+
+extern float sin(float);
+extern float cos(float);
+extern float tan(float);
